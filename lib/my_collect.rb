@@ -7,5 +7,4 @@ def my_collect(array)
 end
 
 languages = ["Ruby", "Javascript", "Python", "Objective-C"]
-my_collect(languages)  {|language| puts language}
-
+my_collect(languages)  {|name| "Hi, #{name}" }
